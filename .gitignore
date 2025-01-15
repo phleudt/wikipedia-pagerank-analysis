@@ -1,0 +1,15 @@
+# Wikipedia data files
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# NPZ files
+*.npz
+
+# Large XML files
+*.xml
+*.xml.bz2
+
+# Other directories
+/venv/
